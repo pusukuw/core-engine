@@ -1,0 +1,29 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00.000Z",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "cpu_usage": 0.25,
+  "memory_usage": {
+    "total_mb": 8192,
+    "used_mb": 2048,
+    "free_mb": 6144
+  },
+  "disk_usage": {
+    "total_gb": 100,
+    "used_gb": 50,
+    "free_gb": 50
+  },
+  "active_threads": 10,
+  "open_connections": 50,
+  "environment": "production",
+  "dependencies": {
+    "database": "online",
+    "cache": "online",
+    "message_queue": "online"
+  },
+  "metrics": {
+    "requests_per_minute": 120,
+    "errors_per_minute": 2
+  }
+}
